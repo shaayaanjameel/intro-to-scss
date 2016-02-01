@@ -11,7 +11,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    font-family: sans-serif;
+    font-family: $helvetica;
 }
 
 *, *:before, *:after {
@@ -20,7 +20,7 @@ html {
 
 body {
   margin: 0;
-  background-color: lightslategrey;
+  background-color: $darkgray;
 }
 
 .billboard {
@@ -28,30 +28,30 @@ body {
 }
 
 h1 {
-  text-align: center;
-  color: gainsboro;
+  text-align: $center;
+  color: $lightgray;
   font-weight: 400;
 }
 
 p {
-  text-align: center;
+  text-align: $center;
   margin: 1em 0;
-  color: gainsboro;
+  color: $lightgray;
 }
 
 a {
   text-decoration: none;
-  text-align: center;
+  text-align: $center;
 }
 
 i {
   vertical-align: middle;
-  text-align: center;
+  text-align: $center;
   margin: 0 45%;
-  color: gainsboro;
+  color: $lightgray;
   font-size: 3em;
-}
-
-i:hover {
-  color: lightcoral;
+  
+  &:hover {
+    color: $coral; 
+  }
 }
